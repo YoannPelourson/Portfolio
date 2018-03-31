@@ -60,6 +60,9 @@ main{
 .flex-center{
   align-items: center;
 }
+.flex-left{
+  align-items: flex-start;
+}
 .flex-column{
   flex-direction: column;
 }
