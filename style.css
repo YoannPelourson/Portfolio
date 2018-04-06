@@ -4,15 +4,23 @@
 }
 header, footer{
   height: 80px;
-  background-color: #4A486B;
+  /*background-color: #4A486B;*/
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  border-color: white;
+  margin-top: 5px;
+
 
 }
 footer{
   height: 50px;
+  color: white;
 
 }
 body{
-  background-image: url(./cardbkg.png);
+  /*background-image: url(./cardbkg.png);*/
+  background-color: rgba(41, 117, 168, 0.75);
+
 
 }
 main{
@@ -21,35 +29,43 @@ main{
 
 }
 section{
-  padding-top: 90px;
-  padding-bottom: 90px;
+
+
 }
 h3{
   /*text-transform: uppercase;*/
   font-size: 200%;
 
 }
+h1{
+  line-height: 20em;
+  color: white;
 }
-/*Selectors for classes*/
+
+.bannerContainer{
+  height: 500px;
+  width: 100%;
+}
+
+.banner{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  /*background-image: url(./lyon.jpg);*/
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .link-no-style{
   text-decoration: none;
   color: inherit;
 }
-.image-container>img{
-  max-width: 90%;
-  height: auto;
-  padding-left: 10px;
-  padding-right: 10px;
-}
+
 .position-fixed{
   position: fixed;
     top: 0;
     width: 100%;
 }
 
-.image-container{
-  width: 500px;
-}
 .full-height{
   height: 100%;
 }
@@ -84,9 +100,10 @@ h3{
   padding-right: 10px;
 }
 .menu-buttons>li>a:hover{
-  background-image: url(./cardbkg.png);
+/*  background-image: url(./cardbkg.png);*/
   color: white;
-
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .no-padding-margin{
@@ -114,6 +131,20 @@ h3{
   background-image: url(./background2.png);
   border-color: black;
 }
-.rounded-image{
-  border-radius: 8px;
+
+#presentation{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+#projets {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+#competences{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+#experiences{
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
