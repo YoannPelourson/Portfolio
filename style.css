@@ -1,150 +1,129 @@
-/*Selectors for balises*/
-* {
-  font-family: 'Muli', sans-serif;
+body, html{
+  height: 100%;
+  background-color: rgba(106, 149, 190, 0.25);
 }
-header, footer{
-  height: 80px;
-  /*background-color: #4A486B;*/
+
+h1{
+  text-align: center;
+}
+
+h3{
+  padding-top:
+}
+
+footer{
+  padding: 0;
+  margin: 0;
+  height: 100px;
+  align-items: center;
+  width: 650px;
   border-top: solid 1px;
   border-bottom: solid 1px;
-  border-color: white;
-  margin-top: 5px;
-
-
-}
-footer{
-  height: 50px;
-  color: white;
-
-}
-body{
-  /*background-image: url(./cardbkg.png);*/
-  background-color: rgba(41, 117, 168, 0.75);
-
-
-}
-main{
-  margin-top: 80px;
-  margin-bottom: 20px;
-
-}
-section{
-
-
-}
-h3{
-  /*text-transform: uppercase;*/
-  font-size: 200%;
-
-}
-h1{
-  line-height: 20em;
-  color: white;
+  border-color: black;
 }
 
-.bannerContainer{
-  height: 500px;
-  width: 100%;
+footer>ul{
+  list-style-type: none;
 }
 
-.banner{
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  /*background-image: url(./lyon.jpg);*/
-  background-repeat: no-repeat;
+.parallax{
+  background-image: url(./assets/imgs/background/lyon2.jpg);
+  height: 150px;
+  background-attachment: fixed;
   background-position: center;
-}
-.link-no-style{
-  text-decoration: none;
-  color: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.position-fixed{
-  position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.full-height{
-  height: 100%;
-}
-.full-width{
+.container{
+/*  background-color: red;*/
   width: 100%;
+  padding-top: 56.25%;
+  position: relative;
 }
+
+.txt{
+  position: absolute;
+  top: 70px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+
+
 .flex-base{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
-.flex-row-revers{
-
-  flex-direction: row-reverse;
-
-}
-.flex-center{
+  text-align: center;
   align-items: center;
+
+
 }
-/*.flex-left{
-  align-items: flex-start;
-}*/
+
+.flex-row-revers{
+  flex-direction: row-reverse;
+}
+
 .flex-column{
   flex-direction: column;
+  text-align: center;
 }
 
-.menu-buttons>li>a, .footer-buttons{
-  text-decoration: none;
-  color: white;
-  text-transform: uppercase;
-  padding-left: 10px;
-  padding-right: 10px;
+.full-width{
+  width: 100%;
 }
+
+.link-no-style{
+  text-decoration: none;
+  color: black;
+}
+
+
+.menu-buttons{
+
+  list-style-type: none;
+  padding-top: 10px;
+  padding: 0;
+  margin: 0;
+  height: 90px;
+  align-items: center;
+  text-transform: uppercase;
+  width: 650px;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  border-color: black;
+  position: fixed;
+  background-color: rgba(112, 112, 112, 0.5);
+}
+
+
+
 .menu-buttons>li>a:hover{
-/*  background-image: url(./cardbkg.png);*/
-  color: white;
-  cursor: pointer;
   text-decoration: underline;
 }
 
-.no-padding-margin{
-  margin: 0;
-  padding: 0;
-
-}
-.list-no-style{
-  list-style: none;
-}
-
-.p-base{
-  width: 650px;
-  text-align: justify;
-
-}
 .base-card{
-
   padding: 20px;
-  margin: 20px;
+  margin: 0px;
   min-height: 150px;
   max-height: 150px;
-  width: 100%;
-  box-shadow: 5px 5px 5px 5px rgba(61,61,61,0.75);
-  background-image: url(./background2.png);
-  border-color: black;
+  width: 80%;
+  /*box-shadow: 5px 5px 5px 5px rgba(61,61,61,0.75);*/
+
+
+
 }
 
-#presentation{
-  padding-top: 90px;
-  padding-bottom: 90px;
+.border-card{
+  border-right: solid 1px black;
 }
-#projets {
-  padding-top: 90px;
-  padding-bottom: 90px;
+
+.list-no-style{
+  list-style-type: none;
 }
-#competences{
-  padding-top: 90px;
-  padding-bottom: 90px;
-}
-#experiences{
-  padding-top: 90px;
-  padding-bottom: 90px;
+
+.core-section{
+  height:  500px;
 }
