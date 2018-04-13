@@ -1,6 +1,9 @@
 body, html{
   height: 100%;
-  background-color: rgba(106, 149, 190, 0.25);
+  /*background-color: rgba(106, 149, 190, 0.25);*/
+  padding: 0;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 h1{
@@ -26,6 +29,7 @@ footer>ul{
   list-style-type: none;
 }
 
+
 .parallax{
   background-image: url(./assets/imgs/background/lyon2.jpg);
   height: 150px;
@@ -43,11 +47,20 @@ footer>ul{
 }
 
 .txt{
-  position: absolute;
-  top: 70px;
+  position: fixed;
+  top: 100px;
   left: 0;
   bottom: 0;
   right: 0;
+}
+
+.txt-alt{
+  position: sticky;
+  top: 100px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
 }
 
 
@@ -61,6 +74,8 @@ footer>ul{
 
 
 }
+
+
 
 .flex-row-revers{
   flex-direction: row-reverse;
@@ -90,13 +105,33 @@ footer>ul{
   height: 90px;
   align-items: center;
   text-transform: uppercase;
-  width: 650px;
+  width: 950px;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  border-color: black;
+  position: fixed;
+  background-color: rgba(112, 112, 112, 0.3);
+  top: 10px;
+}
+
+.menu-buttons-alt{
+
+  list-style-type: none;
+  padding-top: 10px;
+  padding: 0;
+  margin: 0;
+  height: 40px;
+  align-items: center;
+  text-transform: uppercase;
+  width: 950px;
   border-top: solid 1px;
   border-bottom: solid 1px;
   border-color: black;
   position: fixed;
   background-color: rgba(112, 112, 112, 0.5);
+  top: 0;
 }
+
 
 
 
@@ -112,8 +147,14 @@ footer>ul{
   width: 80%;
   /*box-shadow: 5px 5px 5px 5px rgba(61,61,61,0.75);*/
 
+}
 
-
+.base-card-skills{
+  padding: 20px;
+  margin: 0px;
+  min-height: 150px;
+  max-height: 150px;
+  width: 80%;
 }
 
 .border-card{
@@ -126,4 +167,8 @@ footer>ul{
 
 .core-section{
   height:  500px;
+}
+
+@media screen and (max-width: 1530px) {
+
 }

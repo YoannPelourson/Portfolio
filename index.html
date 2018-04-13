@@ -4,16 +4,23 @@
     <meta charset="utf-8">
     <title>Pelourson Yoann Portfolio</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/imgs/logos/terminal.png" type="favicon/ico" />
+
   </head>
   <body class="">
-    <div class="parallax container">
+    <div id="acceuil" class="parallax container">
 
-        <div class="txt"> <h1 class="txt">Developpeur Web & Mobile</h1>
+        <div class="txt"> <h1 class="txt">Developpeur Web & Mobile</h1></div>
 
 
     <header class="">
-    <nav class="full-width flex-base">
+    <nav class="full-width flex-base ">
       <ul class="flex-base menu-buttons ">
+        <li class="list-top  "><a class="link-no-style" href="#acceuil">Acceuil</a></li>
         <li class="list-top  "><a class="link-no-style" href="#presentation">Présentation</a></li>
         <li class="list-top "><a class="link-no-style" href="#competences">Compétences</a></li>
         <li class="list-top "><a class="link-no-style" href="#projets">Projets effectués</a></li>
@@ -31,19 +38,19 @@
       </section>
       <section id="competences"  class="flex-base core-section">
         <div class="base-card flex-base border-card " ><h3>Compétences</h3></div>
-    <div class="base-card flex-base">
+    <div class="base-card-skills flex-base">
       <div class="flex-base flex-column full-width">
         <h4 class="">Développement & logiciel</h4>
-        <ul class="">
-          <li class="list-no-style"><img src="./assets/imgs/logos/html5.png" alt="html5"> </li>
-          <li class="list-no-style"><img src="./assets/imgs/logos/css3.png" alt=""> </li>
-          <li class="list-no-style"><img src="./assets/imgs/logos/js.png" alt=""> </li>
+        <ul class="flex-base full-width">
+          <div class="flex-base flex-row-revers"><li class="list-no-style"><img src="./assets/imgs/logos/html5.png" alt="html5"> <p>HTML5</p> </li></div>
+          <li class="list-no-style"><img src="./assets/imgs/logos/css3.png" alt=""> <p>CSS3</p> </li>
+          <li class="list-no-style"><img src="./assets/imgs/logos/js.png" alt=""> <p>JavaScript</p> </li>
           <!--<li class="list-no-style">Bash</li>-->
-          <li class="list-no-style"><img src="./assets/imgs/logos/git.png" alt=""> </li>
+          <li class="list-no-style"> <a href="https://github.com/YoannPelourson"> <img src="./assets/imgs/logos/git.png" alt=""> <p>Git</p> </a></li>
           <!--<li class="list-no-style">Atome</li>-->
         </ul>
-      </div>
-      <div class="flex-base flex-column full-width">
+      
+      <!--<div class="flex-base flex-column full-width">
         <h4 class="">Personnel</h4>
         <ul class="">
           <li class="list-no-style">_</li>
@@ -53,7 +60,7 @@
           <li class="list-no-style">_</li>
           <li class="list-no-style">_</li>
         </ul>
-      </div>
+      </div>-->
     </div>
       </section>
       <section id="projets" class="flex-base core-section">
@@ -66,7 +73,7 @@
       <div class="base-card flex-base border-card " ><h3>Expériences passées</h3></div>
       <div class="base-card flex-base">
         <ul>
-          <li>Aide-Soignant</li>
+          <li>Aide-Soignant de juin 2015 à janvier 2017</li>
           <li>Interimaire manutentionnaire</li>
         </ul>
       </div>
@@ -80,5 +87,6 @@
 
     </footer>
       <script type="text/javascript" src="./scripts/slider.js"></script>
+      <script type="text/javascript" src="./scripts/script.js"></script>
   </body>
 </html>
