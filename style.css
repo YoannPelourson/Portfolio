@@ -29,7 +29,10 @@ footer>ul{
   list-style-type: none;
 }
 .base-pict{
-  background-color: white;
+  background-image: url(./photo.jpg);
+  background-position: center;
+  background-size: cover;
+  /*background-color: white;*/
   height: 150px;
   width: 150px;
   border-radius: 50%;
@@ -190,7 +193,7 @@ footer>ul{
   border-radius: 15px;
   border: 2px solid black;
   background-color: lightgray;
-
+  box-shadow: inset 0px 10px 10px -3px #656565;
 }
 
 .progress-bar{
@@ -201,7 +204,8 @@ footer>ul{
   border-radius: 13px;
   
   height: 30px;
-  background-color: red;
+  background-color: lightskyblue;
+  /*background:repeating-linear-gradient(-45deg, lightblue, lightblue 20px, lightskyblue 20px, lightskyblue 40px);*/
   font-size: 16px;
 }
 
